@@ -55,5 +55,5 @@ def using_insert(array,element)
 end
 
 array = ["Kyle","Kaity","Mom","Dad"]
-element = "Kelly"
+element[4] = "Kelly"
 puts using_insert(array,element)
