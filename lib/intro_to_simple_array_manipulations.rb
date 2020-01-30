@@ -72,3 +72,5 @@ end
 array = ["Dad","Kaity","Kelly",["Dog","Cat","Frog","Monkey"],"Kyle"]
 puts using_flatten(array)
 
+def using_delete(array,string)
+  
