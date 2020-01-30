@@ -69,4 +69,4 @@ def using_flatten(array)
   array.flatten
 end
 
-array = 
+array = ["Kyle","Kaity","Kelly",["Kyle"]
