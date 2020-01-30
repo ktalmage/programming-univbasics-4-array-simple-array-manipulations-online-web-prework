@@ -57,3 +57,10 @@ end
 array = ["Kyle","Kaity","Mom","Dad"]
 element = "Kelly"
 puts using_insert(array,element)
+
+def using_uniq(array)
+  array.uniq
+end
+
+array = ["Kyle","Kaity","Kelly","Kyle"]
+puts using_uniq(array)
