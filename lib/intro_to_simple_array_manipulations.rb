@@ -79,3 +79,4 @@ end
 array = ["Kyle","Kaity","Kelly","Dog"]
 string = "Dog"
 puts using_delete(array,string)
+
