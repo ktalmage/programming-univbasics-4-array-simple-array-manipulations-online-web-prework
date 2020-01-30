@@ -80,3 +80,10 @@ array = ["Kyle","Kaity","Kelly","Dog"]
 string = "Dog"
 puts using_delete(array,string)
 
+def using_delete_at(array,integer)
+  array.delete_at(integer)
+end
+
+array = ["Kyle","Kaity","Kelly","Dog"]
+integer = 2
+puts using_delete(array,integer)
