@@ -86,4 +86,4 @@ end
 
 array = ["Kyle","Kaity","Kelly","Dog"]
 integer = 2
-puts using_delete(array,integer)
+puts using_delete_at(array,integer)
