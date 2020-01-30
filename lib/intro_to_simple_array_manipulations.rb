@@ -64,3 +64,9 @@ end
 
 array = ["Kyle","Kaity","Kelly","Kyle"]
 puts using_uniq(array)
+
+def using_flatten(array)
+  array.flatten
+end
+
+array = 
