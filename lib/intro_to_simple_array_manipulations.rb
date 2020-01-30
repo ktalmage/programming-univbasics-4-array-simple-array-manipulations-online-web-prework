@@ -35,12 +35,12 @@ end
 array = ["Dog","Cat","Frog","Monkey"]
 puts using_shift(array)
 
-def using_shift_with_args(array)
+def shift_with_args(array)
   array.shift(2)
 end
 
 array = ["Dog","Cat","Frog","Monkey"]
-puts using_shift_with_args(array)
+puts shift_with_args(array)
 
 def using_concat(array1,array2)
   array1.concat(array2)
