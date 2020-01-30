@@ -51,9 +51,9 @@ array2 = ["Dog","Cat","Frog","Monkey"]
 puts using_concat(array1,array2)
 
 def using_insert(array,element)
-  array.insert(element)
+  array.insert(4,element)
 end
 
 array = ["Kyle","Kaity","Mom","Dad"]
-element[4] = "Kelly"
+element = "Kelly"
 puts using_insert(array,element)
